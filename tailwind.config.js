@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        custom: ['Inter'],
+        audiowide: ['Audiowide'],
       },
       colors: {
         ewhite: "#fdf3d3",
