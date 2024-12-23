@@ -2,5 +2,5 @@
   <!-- <SectionNavbar /> -->
   <SectionMain />
   <SectionAboutMe />
-  
+  <SectionProjects />
 </template>

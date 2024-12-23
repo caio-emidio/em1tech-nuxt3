@@ -82,22 +82,11 @@
 }
 
 *::-webkit-scrollbar-track {
-  background: transparent;
+  background: #1a1642;
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #d4d4d4; /* Light gray for light mode */
+  background-color: #382f8e; /* Light gray for light mode */
   border-radius: 20px;
-  border: 3px solid #fff;
-}
-
-/* Scrollbar for dark mode */
-.dark *::-webkit-scrollbar-thumb {
-  background-color: #232323; /* Light gray for light mode */
-  border-radius: 20px;
-  border: 3px solid #09090B;
-}
-
-.dark *::-webkit-scrollbar-track {
-  background: transparent;
+  border: 3px solid transparent;
 }

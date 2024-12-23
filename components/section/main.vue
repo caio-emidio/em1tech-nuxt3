@@ -14,12 +14,12 @@
             >
           </p>
           <p class="text-lg sm:text-xl md:text-2xl mt-4">
-            Transforming <span class="text-eyellow-700">Your Ideas</span> Into
-            <span class="text-eyellow-700">Reality</span>
+            Transforming <span class="text-eyellow-700 font-audiowide">Your Ideas</span> Into
+            <span class="text-eyellow-700 font-audiowide">Reality</span>
           </p>
         </div>
 
-        <div class="flex flex-col sm:flex-row gap-4">
+        <div class="flex flex-col sm:flex-row gap-4 hidden">
           <button
             class="bg-eyellow-700 cursor-pointer transition-all text-white px-6 py-3 rounded-md text-2xl"
           >

@@ -1,5 +1,5 @@
 <template>
-  <section class="about-me bg-orange-100 p-6 rounded-lg shadow-md">
+  <section class="bg-orange-100 p-6 rounded-lg shadow-md w-screen">
     <div class="container mx-auto">
       <h2 class="text-2xl font-bold text-start text-epurple-700 font-audiowide">
         ABOUT US
