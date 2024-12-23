@@ -1,25 +1,36 @@
 <template>
-  <div class="bg-[url('~/assets/img/main.webp')] bg-cover bg-center h-screen w-screen">
-    <div class="bg-black/70">
-      <div class="mx-2 md:mx-24 flex flex-col md:items-center justify-between py-40 h-screen">
-        <div>
-          <p class="text-4xl md:text-6xl font-bold">
+  <div
+    class="bg-[url('~/assets/img/main.webp')] bg-cover bg-center h-screen w-screen"
+  >
+    <div class="bg-black/70 h-screen flex items-center justify-center">
+      <div
+        class="mx-4 sm:mx-8 md:mx-16 lg:mx-24 flex flex-col items-center justify-center text-center space-y-8"
+      >
+        <div class="space-y-14">
+          <p class="text-5xl sm:text-6xl md:text-8xl font-bold">
             Welcome to
-            <span class="font-bold font-audiowide text-epurple-300 md:text-6xl"
+            <span class="font-audiowide text-eyellow-700 transition-all"
               >Em1.Tech</span
             >
           </p>
-          <p class="text-xl md:text-2xl">A way to turn your Projects Reality</p>
-
+          <p class="text-lg sm:text-xl md:text-2xl mt-4">
+            Transforming <span class="text-eyellow-700">Your Ideas</span> Into
+            <span class="text-eyellow-700">Reality</span>
+          </p>
         </div>
-        <div class="flex flex-col md:flex-row  gap-4 mt-4">
-            <button class="bg-epurple-300 hover:bg-epurple-700 transition-all text-white px-4 py-2 rounded-md h-12 text-2xl">
-              Get Started
-            </button>
-            <button class="bg-etransparent text-white px-4 py-2 rounded-md h-12 text-2xl">
-              Learn More
-            </button>
-          </div>
+
+        <div class="flex flex-col sm:flex-row gap-4">
+          <button
+            class="bg-eyellow-700 cursor-pointer transition-all text-white px-6 py-3 rounded-md text-2xl"
+          >
+            Get Started
+          </button>
+          <button
+            class="bg-etransparent text-white px-6 py-3 rounded-md text-lg sm:text-xl"
+          >
+            Learn More
+          </button>
+        </div>
       </div>
     </div>
   </div>

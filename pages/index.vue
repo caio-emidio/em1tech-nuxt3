@@ -1,4 +1,6 @@
 <template>
-  <SectionNavbar />
+  <!-- <SectionNavbar /> -->
   <SectionMain />
+  <SectionAboutMe />
+  
 </template>
