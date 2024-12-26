@@ -73,6 +73,9 @@
           <NuxtLink to="https://x.com/caioem1dio" target="_blank" external>
             <icon class="text-black size-6" name="ri:twitter-x-fill" />
           </NuxtLink>
+          <NuxtLink to="https://em1.tech/discord" target="_blank" external>
+            <icon class="text-black size-6" name="ri:discord-fill" />
+          </NuxtLink>
         </div>
       </div>
     </div>
