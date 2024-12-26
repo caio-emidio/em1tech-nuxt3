@@ -3,4 +3,5 @@
   <SectionMain />
   <SectionAboutMe />
   <SectionProjects />
+  <SectionFooter />
 </template>
