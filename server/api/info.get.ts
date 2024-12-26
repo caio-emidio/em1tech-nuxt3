@@ -5,6 +5,13 @@ export default defineEventHandler(async (event) => {
   const url = `https://api.notion.com/v1/databases/${database}/query`;
   // generate today in formt yyyy-mm-dd
   const body = {
+    // sort by ID
+    sorts: [
+      {
+        property: "ID",
+        direction: "ascending",
+      },
+    ],
   };
   const response: { results: any[] } = await $fetch(url, {
     method: "POST",
