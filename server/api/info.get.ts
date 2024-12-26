@@ -25,7 +25,7 @@ export default defineEventHandler(async (event) => {
       id: item.ID.unique_id.number,
       image: item.image.files[0]?.file?.url || item.image.files[0].external.url,
       name: item.name.title[0].plain_text,
-      description: item.description.rich_text[0].plain_text,
+      description: item.description?.rich_text[0]?.plain_text,
       techs: item.techs.multi_select.map((item: { name: string }) => item.name),
       status: { name: item.status.status.name, color: item.status.status.color },
     };
